@@ -45,6 +45,16 @@ Optimizes truck load by selecting the best combination of orders.
 }
 ```
 
+## Health Check
+
+### GET `/actuator/health`
+
+Check the health status of the application.
+
+**Using curl:**
+```bash
+curl http://localhost:8080/actuator/health
+```
 
 ## Building and Running
 
