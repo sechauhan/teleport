@@ -59,11 +59,6 @@ mvn clean package
 
 ### Run
 ```bash
-mvn spring-boot:run
-```
-
-Or using the JAR:
-```bash
 java -jar target/teleport.jar
 ```
 
